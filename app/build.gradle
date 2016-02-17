@@ -35,7 +35,13 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url "http://repo1.maven.org/maven2/com/google/zxing/android-integration/"
+    }
+}
+
 dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
-
+    compile 'com.google.zxing:android-integration:3.2.1'
 }
